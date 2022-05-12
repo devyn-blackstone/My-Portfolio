@@ -64,7 +64,7 @@ nav a {
 /* this is the paragraph about me */
 .aboutMeInfo {
   margin: 0px;
-  padding-left: 10px;
+  /* padding-left: 10px; */
   width: 70%;
 }
 
@@ -84,6 +84,28 @@ nav a {
 }
 
 /* project cards */
+.beerBuddy {
+  margin-bottom: 5px;
+}
+
+.beerBuddySize {
+  /* width: 90%; */
+  margin: 0px;
+}
+
+.projectSize {
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.beerBuddy img {
+  border-radius: 5px;
+}
+
+.workCards {
+  margin: auto;
+  width: 70%;
+}
 
 /* this is the entire section contact me*/
 .contactContainer {
@@ -116,23 +138,29 @@ ul {
   margin-left: 0px;
 }
 
-.contact a {
+.contact a,
+.card-body a {
   font-size: 15px;
   text-decoration: none;
   color: #d3d3d3;
   text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-decoration: underline;
 }
 
 /* when hover over contact options chnge color */
 .contact a:hover {
-  color: blueviolet;
+  color: rgb(98, 90, 125);
 }
 
 footer {
   text-align: center;
-  font-size: 12px;
 }
 
+h6 {
+  font-size: small;
+  color: rgb(98, 90, 125);
+}
 @media (max-width: 900px) {
   .workContainer,
   .aboutMeContainer,
@@ -146,4 +174,21 @@ footer {
   .contactTitle {
     padding-bottom: 20px;
   }
+  .aboutMeInfo {
+    width: 100%;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: unset;
+  }
+}
+
+.card-body {
+  background-color: #2b2d2f;
+  border: 0px;
+}
+
+.card-text {
+  text-align: center;
 }
