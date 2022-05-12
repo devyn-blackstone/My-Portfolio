@@ -1,0 +1,149 @@
+body {
+  background-color: #2b2d2f;
+  color: #d3d3d3;
+  font-family: sans-serif;
+}
+
+header {
+  background: linear-gradient(to right, gray, rgb(98, 90, 125));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10px 0px 10px;
+  padding: 10px;
+}
+
+/* h2 to left of header */
+.header {
+  padding: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* this adjusts how the list is displayed */
+nav li {
+  display: inline;
+}
+
+/* this adjusts the words in the navbar*/
+nav a {
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+  color: #d3d3d3;
+}
+
+/* "Full stack web developer" */
+.subtitle {
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0;
+  padding: 20px;
+  margin: 5px 10px 20px 10px;
+  border: 1px solid #d3d3d3;
+  font-size: medium;
+}
+
+/* this is the entire section about me */
+.aboutMeContainer {
+  display: flex;
+  margin: 30px;
+}
+
+/* "about me" */
+.aboutMeTitle {
+  margin: 0px;
+  width: 30%;
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+}
+
+/* this is the paragraph about me */
+.aboutMeInfo {
+  margin: 0px;
+  padding-left: 10px;
+  width: 70%;
+}
+
+/* this is the entire section work*/
+.workContainer {
+  display: flex;
+  margin: 30px;
+}
+
+/* "work" */
+.workTitle {
+  margin: 0px;
+  width: 30%;
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+}
+
+/* project cards */
+
+/* this is the entire section contact me*/
+.contactContainer {
+  margin: 30px;
+  display: flex;
+}
+
+/* "contact me" */
+.contactTitle {
+  margin: 0px;
+  width: 30%;
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+}
+
+/* display the list of contact options */
+.contact {
+  display: inline;
+  margin: 0px;
+  padding-left: 10px;
+  width: 70%;
+}
+
+ul {
+  margin: auto;
+  justify-content: left;
+  padding: 0px;
+  padding-inline-start: 0px;
+  margin-left: 0px;
+}
+
+.contact a {
+  font-size: 15px;
+  text-decoration: none;
+  color: #d3d3d3;
+  text-transform: uppercase;
+}
+
+/* when hover over contact options chnge color */
+.contact a:hover {
+  color: blueviolet;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+}
+
+@media (max-width: 900px) {
+  .workContainer,
+  .aboutMeContainer,
+  .contactContainer {
+    flex-direction: column;
+    font-size: 20px;
+    line-height: 1em;
+  }
+  .aboutMeTitle,
+  .workTitle,
+  .contactTitle {
+    padding-bottom: 20px;
+  }
+}
