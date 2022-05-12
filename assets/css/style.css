@@ -41,7 +41,7 @@ nav a {
   letter-spacing: 0.1em;
   margin: 0;
   padding: 20px;
-  margin: 5px 10px 20px 10px;
+  margin: 5px 10px 10px 10px;
   border: 1px solid #d3d3d3;
   font-size: medium;
 }
@@ -191,4 +191,9 @@ h6 {
 
 .card-text {
   text-align: center;
+}
+
+.mainPhoto {
+  width: 100%;
+  /* margin: 0px 10px; */
 }
