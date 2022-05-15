@@ -182,9 +182,9 @@ h6 {
   *::after {
     box-sizing: unset;
   }
-  .workCards {
-    margin-left: 5px;
-    margin-right: 5px;
+  .beerBuddy,
+  .beerBuddySize {
+    height: 50%;
   }
 }
 
