@@ -182,8 +182,7 @@ h6 {
   *::after {
     box-sizing: unset;
   }
-  .beerBuddy,
-  .beerBuddySize {
+  .beerBuddy img {
     height: 50%;
   }
 }
