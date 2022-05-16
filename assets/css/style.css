@@ -183,7 +183,13 @@ h6 {
     box-sizing: unset;
   }
   .beerBuddy img {
-    height: 50%;
+    max-width: 95%;
+    height: auto;
+    padding-left: 5px;
+  }
+  .beerBuddy {
+    background-color: #2b2d2f;
+    border: 1px solid white;
   }
 }
 
