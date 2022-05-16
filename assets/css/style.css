@@ -185,11 +185,15 @@ h6 {
   .beerBuddy img {
     max-width: 95%;
     height: auto;
-    padding-left: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .beerBuddy {
     background-color: #2b2d2f;
     border: 1px solid white;
+    display: flex;
   }
 }
 
