@@ -49,7 +49,7 @@ nav a {
 /* this is the entire section about me */
 .aboutMeContainer {
   display: flex;
-  margin: 30px;
+  margin: 30px 30px 60px 30px;
 }
 
 /* "about me" */
@@ -68,6 +68,17 @@ nav a {
   width: 70%;
 }
 
+.aboutMeParagraph {
+  padding: 0px 12px;
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+#almost {
+  color: rgb(98, 90, 125);
+  font-style: italic;
+  letter-spacing: 0.1em;
+}
 /* this is the entire section work*/
 .workContainer {
   display: flex;

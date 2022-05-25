@@ -37,17 +37,24 @@
     <img class="mainPhoto" src="./assets/images/IMG_5635.jpeg" alt=""/>
 
     <section class="aboutMeContainer">
-      <h3 class="aboutMeTitle">about me</h3>
+      <h3 class="aboutMeTitle" id="aboutme">about me</h3>
       <div class="aboutMeInfo">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat nihil,
-        recusandae accusantium iure magni numquam eaque alias accusamus animi
-        voluptate repellendus pariatur. Provident quia expedita ratione
-        inventore doloremque? Eius, at?
+        <p class="aboutMeParagraph">
+          Hi - I'm Devyn and this is my first website. I love to travel ✈️ , add to my plant collection 🪴 , and try new breweries 🍺. 
+        </p>
+        <br>
+        <p class="aboutMeParagraph">
+          I've always loved the idea of computer science and wished I had knew more about it when I was in school; however, I didn't and ended up with a career in Project Management that has been wonderful for the past <span id="almost">almost</span> 8 years. Over the past few years the internal battle to change careers has been persistant and so finally, I decided it was now or never and took a leap of faith.
+        </p>
+        <br>
+        <p class="aboutMeParagraph">
+          Now we are here: <span id="current_date"></span> and I'm doing things that in March 2022 I had no idea were even possible. I'm looking forward to bringing my previous career experience into this new endeavor and working my hardest to achieve my dreams.  
+        </p>
       </div>
     </section>
 
     <section class="workContainer">
-      <h3 class="workTitle">work</h3>
+      <h3 class="workTitle" id="work">work</h3>
       <div class="workCards">
         <div class="row row-cols-1 row-cols-md-1 g-4 beerBuddySize">
           <div class="col beerBuddySize">
@@ -66,7 +73,7 @@
             <div class="card project">
               <img src="./assets/images/Screen Shot 2022-05-12 at 15.57.28.png" class="card-img-top" alt="..." />
               <div class="card-body">
-                <p class="card-text"><a href="The Theorist">The Theorist</a></p>
+                <p class="card-text"><a href="https://desolate-peak-38823.herokuapp.com/">The Theorist</a></p>
               </div>
             </div>
           </div>
@@ -75,22 +82,22 @@
               <img src="" class="card-img-top" alt="Placeholder Project 3" />
             </div>
           </div>
-          <div class="col projectSize">
+          <!-- <div class="col projectSize">
             <div class="card project">
               <img src="" class="card-img-top" alt="Placeholder Project 4" />
             </div>
           </div>
           <div class="col projectSize">
             <div class="card" project>
-              <img src="" class="card-img-top" alt="Placeholder Project 4" />
+              <img src="" class="card-img-top" alt="Placeholder Project 5" />
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
 
     <section class="contactContainer">
-      <h3 class="contactTitle">contact</h3>
+      <h3 class="contactTitle" id="contact">contact</h3>
       <ul>
         <li class="contact">
           <a href="">678.779.7874</a>
@@ -125,5 +132,8 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script>
+      document.getElementById("current_date").innerHTML = Date();
+      </script>
   </body>
 </html>
