@@ -16,31 +16,39 @@
 
   <body>
     <header>
-      <h1 class="header">Devyn Blackstone</h1>
-      <nav>
-        <ul>
-          <li>
-            <a href="#aboutme">about me</a>
-          </li>
-          <li>
-            <a href="#work">work</a>
-          </li>
-          <li>
-            <a href="#contact">contact</a>
-          </li>
-        </ul>
-      </nav>
+        <nav>
+          <div class="navInline">
+              <img class="db" src="./assets/images/db circle.png" alt="db circle">
+          </div>
+          <div class="navInline">
+              <a href="#aboutme">About me</a>
+          </div>
+          <div class="navInline dropdown">
+                <span>Work</span>
+                <div class="dropdown-content">
+                  <a href="#navPlant">Plantagotchi</a>
+                  <a href="#navTheorist">The Theorist</a>
+                  <a href="#navBeer">Beer Buddy</a>
+                </div>
+          </div>
+          <div class="navInline dropdown">
+            <span>Contact</span>
+            <div class="dropdown-content">
+              <p>read this</p>
+            </div>
+          </div>
+        </nav>
     </header>
 
     <h2 class="subtitle">Full Stack Web Developer</h2>
 
-    <img class="mainPhoto" src="./assets/images/IMG_5635.jpeg" alt=""/>
+    <!-- <img class="mainPhoto" src="./assets/images/IMG_5635.jpeg" alt=""/> -->
 
     <section class="aboutMeContainer">
       <h3 class="aboutMeTitle" id="aboutme">about me</h3>
       <div class="aboutMeInfo">
         <p class="aboutMeParagraph">
-          Hi - I'm Devyn and this is my first website. I love to travel ✈️ , add to my plant collection 🪴 , and try new breweries 🍺. 
+          Hi - I'm Devyn. I love to travel ✈️ , add to my plant collection 🪴 , and try new breweries 🍺. 
         </p>
         <br>
         <p class="aboutMeParagraph">
@@ -64,7 +72,7 @@
                   alt="..."
                 />
                 <div class="card-body">
-                  <p class="card-text"><a href="https://alien-plantigotchi.herokuapp.com/" target="_blank">Plantagotchi</a></p>
+                  <p class="card-text" id="navPlant"><a href="https://alien-plantigotchi.herokuapp.com/" target="_blank"       >Plantagotchi</a></p>
                 </div>
           </div>
         </div>
@@ -73,7 +81,7 @@
             <div class="card project">
               <img src="./assets/images/Screen Shot 2022-05-12 at 15.57.28.png" class="card-img-top" alt="..." />
               <div class="card-body">
-                <p class="card-text"><a href="https://desolate-peak-38823.herokuapp.com/" target="_blank">The Theorist</a></p>
+                <p class="card-text" id="navTheorist"><a href="https://desolate-peak-38823.herokuapp.com/" target="_blank">The Theorist</a></p>
               </div>
             </div>
           </div>
@@ -81,7 +89,7 @@
             <div class="card project">
               <img src="./assets/images/Screen Shot 2022-06-09 at 12.52.49.png" class="card-img-top" alt=""/>
               <div class="card-body">
-                <p class="card-text"><a href="https://sherb93.github.io/beer_buddy/index.html" target="_blank">Beer Buddy</a></p>
+                <p class="card-text" id="navBeer"><a href="https://sherb93.github.io/beer_buddy/index.html" target="_blank">Beer Buddy</a></p>
               </div>
             </div>
           </div>

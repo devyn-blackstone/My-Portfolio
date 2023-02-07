@@ -1,11 +1,11 @@
 body {
-  background-color: #2b2d2f;
-  color: #d3d3d3;
-  font-family: sans-serif;
+  background-color: #d3d3d3;
+  color: #2b2d2f;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 header {
-  background: linear-gradient(to right, gray, rgb(98, 90, 125));
+  /* background: #d3d3d3; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,25 +13,60 @@ header {
   padding: 10px;
 }
 
-/* h2 to left of header */
-.header {
-  padding: 20px;
-  font-size: 20px;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
-
-/* this adjusts how the list is displayed */
-nav li {
-  display: inline;
-}
-
-/* this adjusts the words in the navbar*/
-nav a {
-  font-size: 20px;
-  padding: 10px;
+a {
+  color: #2b2d2f;
+  opacity: 0.5;
   text-decoration: none;
-  color: #d3d3d3;
+}
+
+a:hover {
+  font-weight: bold;
+  color: #2b2d2f;
+}
+/* this adjusts how the list is displayed */
+.navInline {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+  font-size: 20px;
+}
+
+.db {
+  width: 15%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  color: #2b2d2f;
+  opacity: 0.5;
+}
+
+.dropdown:hover {
+  font-weight: bold;
+  color: #2b2d2f;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #d3d3d3;
+  min-width: 160px;
+  padding: 20px 10px;
+  min-height: 40px;
+  border: 1px solid #b2b6ba;
+  font-weight: normal;
+  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+  /* padding: 12px 16px; */
+  /* z-index: 1; */
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content:hover {
+  font-weight: bold;
 }
 
 /* "Full stack web developer" */
@@ -42,7 +77,7 @@ nav a {
   margin: 0;
   padding: 20px;
   margin: 5px 10px 10px 10px;
-  border: 1px solid #d3d3d3;
+  /* border: 1px solid #b2b6ba; */
   font-size: medium;
 }
 
@@ -170,7 +205,7 @@ footer {
 
 h6 {
   font-size: small;
-  color: rgb(98, 90, 125);
+  color: #d3d3d3;
 }
 @media (max-width: 900px) {
   .workContainer,
@@ -217,10 +252,10 @@ h6 {
   text-align: center;
 }
 
-.mainPhoto {
+/* .mainPhoto {
   width: 100%;
-  /* margin: 0px 10px; */
-}
+  margin: 0px 10px;
+} */
 
 .card-img-top {
   height: 380px;
