@@ -14,7 +14,7 @@ Hi! I'm Devyn and I'm breaking into the tech industry as of March 2022. I love f
 
 ![Scroll of My Portfolio](./assets/images/Devyn.gif)
 
-https://jordond27.github.io/My-Portfolio/
+https://devyn-blackstone.github.io/My-Portfolio/
 
 ## License
 
